@@ -16,7 +16,7 @@
 
 **Found this course helpful? Show your support by starring the repository!**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/automate-for-growth?style=social&label=Star)](https://github.com/yourusername/automate-for-growth)
+[![GitHub stars](https://img.shields.io/github/stars/cporter202/automate-for-growth?style=social&label=Star)](https://github.com/cporter202/automate-for-growth)
 
 *Your star helps others discover this course and motivates continued improvements!*
 
@@ -317,7 +317,7 @@ Get **15% off each month** for your first 3 months on Starter, Pro, or Powerhous
 
 > 💡 **Free Account Available:** Start with a free account or buy tokens without a subscription!
 
-**[🚀 Learn More About ViralWave Studio →](./1-ai-content-generation-tool/)**
+**[🚀 Learn More About ViralWave Studio →](./ai-content-generation-tool/)**
 
 ---
 
@@ -343,7 +343,7 @@ Get **15% off each month** for your first 3 months on Starter, Pro, or Powerhous
 
 - **[💻 Get Started for Free →](https://viralwavestudio.com)** - Start with a free account
 - **🎁 Use Coupon Code `WELCOME15`** - 15% off first 3 months!
-- **[🚀 #1 AI Content Generation Tool →](./1-ai-content-generation-tool/)** - Complete guide to ViralWave Studio
+- **[🚀 #1 AI Content Generation Tool →](./ai-content-generation-tool/)** - Complete guide to ViralWave Studio
 
 ### 🛠️ Tools & Templates
 
@@ -435,7 +435,7 @@ A: Each module includes troubleshooting guides and best practices.
 
 **Found this course helpful? Show your support by starring the repository!**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/automate-for-growth?style=social&label=Star)](https://github.com/yourusername/automate-for-growth)
+[![GitHub stars](https://img.shields.io/github/stars/cporter202/automate-for-growth?style=social&label=Star)](https://github.com/cporter202/automate-for-growth)
 
 *Your star helps others discover this course and motivates continued improvements!*
 

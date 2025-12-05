@@ -31,7 +31,7 @@ Get **15% off each month** for your first 3 months on Starter, Pro, or Powerhous
 
 ### 📚 Learn More
 
-- **[🚀 #1 AI Content Generation Tool →](../1-ai-content-generation-tool/)** - Complete guide to ViralWave Studio
+- **[🚀 #1 AI Content Generation Tool →](../ai-content-generation-tool/)** - Complete guide to ViralWave Studio
 
 ## Content Templates
 

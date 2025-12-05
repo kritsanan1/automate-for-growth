@@ -24,7 +24,7 @@ Welcome to your content automation journey! If you're completely new to social m
 
 > 💡 **Free Account Available:** Start with a free account or buy tokens without a subscription!
 
-**[🚀 Learn More About ViralWave Studio →](../1-ai-content-generation-tool/)**
+**[🚀 Learn More About ViralWave Studio →](../ai-content-generation-tool/)**
 
 ---
 
