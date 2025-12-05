@@ -1,6 +1,41 @@
-# Module 9: Advanced Automation - API
+<div align="center">
+
+# ⚙️ Module 9: Advanced Automation - API
+
+[![Module](https://img.shields.io/badge/Module-9-blue)]()
+[![Time](https://img.shields.io/badge/Time-60--90%20min-orange)]()
+[![Level](https://img.shields.io/badge/Level-Advanced-red)]()
+
+**Custom Automation Workflows**
+
+---
+
+</div>
 
 Welcome to Module 9! This module is for developers and advanced users who want to build custom automation workflows. If you're not technical, that's okay - you can skip this module and still succeed with everything else. But if you want to integrate automation into your own tools or build custom solutions, this is for you.
+
+<div align="center">
+
+### 📋 What You'll Learn in This Module
+
+| Topic | What You'll Master |
+|-------|-------------------|
+| 🔌 **API Introduction** | Understand API basics |
+| 🔑 **API Setup** | Get credentials and configure |
+| 💻 **Code Examples** | Python, JavaScript, Node.js |
+| 🔄 **Custom Workflows** | Build your own automation |
+| 💰 **Cost Optimization** | Save 70% on video generation |
+| 🚀 **Integration Examples** | Real-world use cases |
+
+---
+
+<div align="left">
+
+> ⚠️ **Note:** This module is optional and designed for developers or advanced users. You can complete the course successfully without it.
+
+</div>
+
+</div>
 
 ## Introduction to the Sora API
 
@@ -677,7 +712,39 @@ async def bulk_generate(prompts):
 - Batch operations
 - Respect limits
 
-## Next Steps
+---
 
-You've mastered API integration. Next, learn about team collaboration and enterprise features in [Module 10: Team Collaboration](../10-team-collaboration/README.md).
+## ✅ Module 9 Complete!
+
+<div align="center">
+
+### 🎉 Congratulations!
+
+You've mastered API integration! You now know:
+
+</div>
+
+<div align="left">
+
+- ✅ How to set up and use the API
+- ✅ How to build custom automation workflows
+- ✅ How to integrate with other tools
+- ✅ How to optimize costs (70% savings!)
+- ✅ How to scale with API access
+
+</div>
+
+<div align="center">
+
+### 🚀 Ready for the Next Step?
+
+**[👉 Continue to Module 10: Team Collaboration →](../10-team-collaboration/README.md)**
+
+*Learn about team collaboration and enterprise features!*
+
+> 💡 **Note:** Module 10 is designed for teams and agencies. Solo creators can skip to Module 11 if preferred.
+
+---
+
+</div>
 
