@@ -77,7 +77,14 @@ ViralWave Studio is a comprehensive content automation platform that helps creat
 
 2. **Install dependencies**
    ```bash
-   npm install
+   # Install backend dependencies
+   cd backend && npm install
+   
+   # Install frontend dependencies
+   cd ../frontend && npm install
+   
+   # Go back to root
+   cd ..
    ```
 
 3. **Set up environment variables**
@@ -91,12 +98,46 @@ ViralWave Studio is a comprehensive content automation platform that helps creat
 
 4. **Start development servers**
    ```bash
-   npm run dev
+   # Start backend server
+   cd backend && npm run dev
+   
+   # In a new terminal, start frontend server
+   cd frontend && npm run dev
    ```
 
 The application will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:3001
+
+## 🚧 Current Status
+
+### ✅ Completed
+- ✅ Project structure setup
+- ✅ Frontend Next.js configuration
+- ✅ Backend Express.js server
+- ✅ TypeScript configuration
+- ✅ TailwindCSS setup
+- ✅ Basic middleware (error handling, CORS)
+- ✅ Database schema for Supabase
+- ✅ Environment configuration files
+- ✅ .gitignore configuration
+
+### 🚧 In Progress
+- [ ] Authentication system with Supabase
+- [ ] User registration and login
+- [ ] Content generation API endpoints
+- [ ] Social media platform integrations
+- [ ] Video generation with Sora API
+- [ ] Analytics dashboard
+
+### 📋 Upcoming Features
+- [ ] Subscription management with Stripe
+- [ ] Multi-platform publishing
+- [ ] Content scheduling
+- [ ] Brand authority automation
+- [ ] Team collaboration features
+- [ ] Advanced analytics
+- [ ] Mobile responsive design
 
 ## 🔧 Configuration
 
