@@ -25,7 +25,7 @@ const validateLogin = [
 ];
 
 // Register user
-router.post('/register', validateRegister, async (req, res, next) => {
+router.post('/register', validateRegister, async (req: any, res: any, next: any) => {
   try {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -67,15 +67,15 @@ router.post('/register', validateRegister, async (req, res, next) => {
         updated_at: new Date().toISOString()
       }])
       .select()
-      .single();
+      .single() as any;
 
     if (error) throw error;
 
     // Generate JWT token
     const token = jwt.sign(
-      { userId: user.id, email: user.email, role: user.role },
+      { userId: user?.id, email: user?.email, role: user?.role },
       process.env.JWT_SECRET || 'fallback-secret',
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+      { expiresIn: '7d' }
     );
 
     res.status(201).json({
@@ -97,7 +97,7 @@ router.post('/register', validateRegister, async (req, res, next) => {
 });
 
 // Login user
-router.post('/login', validateLogin, async (req, res, next) => {
+router.post('/login', validateLogin, async (req: any, res: any, next: any) => {
   try {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -115,7 +115,7 @@ router.post('/login', validateLogin, async (req, res, next) => {
       .select('*')
       .eq('email', email)
       .eq('is_active', true)
-      .single();
+      .single() as any;
 
     if (error || !user) {
       return res.status(401).json({
@@ -135,9 +135,9 @@ router.post('/login', validateLogin, async (req, res, next) => {
 
     // Generate JWT token
     const token = jwt.sign(
-      { userId: user.id, email: user.email, role: user.role },
+      { userId: user?.id, email: user?.email, role: user?.role },
       process.env.JWT_SECRET || 'fallback-secret',
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+      { expiresIn: '7d' }
     );
 
     res.json({
@@ -159,7 +159,7 @@ router.post('/login', validateLogin, async (req, res, next) => {
 });
 
 // Refresh token
-router.post('/refresh', async (req, res, next) => {
+router.post('/refresh', async (req: any, res: any, next: any) => {
   try {
     const { token } = req.body;
 
@@ -179,7 +179,7 @@ router.post('/refresh', async (req, res, next) => {
       .select('id, email, name, role')
       .eq('id', decoded.userId)
       .eq('is_active', true)
-      .single();
+      .single() as any;
 
     if (error || !user) {
       return res.status(401).json({
@@ -207,6 +207,7 @@ router.post('/refresh', async (req, res, next) => {
       success: false,
       message: 'Invalid token'
     });
+    return;
   }
 });
 

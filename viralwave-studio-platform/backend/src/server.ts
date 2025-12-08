@@ -16,6 +16,7 @@ import { userRouter } from './routes/users';
 import { contentRouter } from './routes/content';
 import { platformRouter } from './routes/platforms';
 import { analyticsRouter } from './routes/analytics';
+import { videoRouter } from './routes/video';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -53,6 +54,7 @@ app.use('/api/users', userRouter);
 app.use('/api/content', contentRouter);
 app.use('/api/platforms', platformRouter);
 app.use('/api/analytics', analyticsRouter);
+app.use('/api/video', videoRouter);
 
 // Error handling
 app.use(notFound);
